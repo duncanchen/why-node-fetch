@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@azure/identity':
-    specifier: ^3.3.0
-    version: 3.3.0
+    specifier: ^3.3.1
+    version: 3.3.1
   '@azure/storage-blob':
     specifier: ^12.15.0
     version: 12.15.0
@@ -149,8 +153,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@azure/identity@3.3.0:
-    resolution: {integrity: sha512-gISa/dAAxrWt6F2WiDXZY0y2xY4MLlN2wkNW4cPuq5OgPQKLSkxLc4I2WR04puTfZyQZnpXbAapAMEj1b96fgg==}
+  /@azure/identity@3.3.1:
+    resolution: {integrity: sha512-96im0LrJt0kzsMqA8XjWxqbd2pPuEZHDlyLM4zdMv6nowLV/ul3dOW5X55OuLoFX+h22tYnMcGmQb3tlkdt/UA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@azure/abort-controller': 1.1.0
