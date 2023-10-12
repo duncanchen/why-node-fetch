@@ -14,7 +14,7 @@
   "dependencies": {
     "@azure/identity": "^3.3.0",
     "@azure/storage-blob": "^12.15.0",
-    "fastify": "^4.22.0"
+    "fastify": "^4.24.0"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
